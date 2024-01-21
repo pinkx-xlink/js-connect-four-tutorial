@@ -3,6 +3,7 @@ const playerYellow = 'Y';
 let currentPlayer = playerRed;
 const gameOver = false;
 let board;
+let currentColumns;
 const rows = 6;
 const columns = 7;
 
@@ -12,6 +13,7 @@ window.onload = function() {
 
 function setGame() {
   board = [];
+  currentColumns = [5, 5, 5, 5, 5, 5, 5];
 
   for (let r = 0; r < rows; r++) {
     let row = [];
@@ -36,8 +38,12 @@ function setPiece() {
   let r = parseInt(coords[0]);
   let c = parseFloat(coords[1]);
 
+  r = currentColumns[c];
+  if (r < 0) {
+    return;
+  }
   board[r][c] = currentPlayer;
-  let tile = this;
+  let tile = document.getElementById(r.toString() + "-" + c.toString());
   if (currentPlayer == playerRed) {
     tile.classList.add("red-piece");
     currentPlayer = playerYellow;
@@ -45,4 +51,8 @@ function setPiece() {
     tile.classList.add("yellow-piece");
     currentPlayer = playerRed;
   }
+
+  r -= 1; //updates row height for column
+  currentColumns[c] = r;
+
 }
