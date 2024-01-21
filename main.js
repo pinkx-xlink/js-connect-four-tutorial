@@ -63,13 +63,16 @@ function checkWinner() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns - 3; c++) {
             if (board[r][c] != " ") {
-                if (board[r][c] == board[r][c+1] && board[r][c+2] && board[r][c+2] == board[r][c+3]) {
+                if (board[r][c] == board[r][c+1] && board[r][c+1]== board[r][c+2] && board[r][c+2] == board[r][c+3]) {
                     setWinner(r, c);
                     return;
                 }
             }
         }
     }
+
+    //check vertically (sliding window DOWN)
+
 }
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
