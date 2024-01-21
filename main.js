@@ -1,6 +1,6 @@
 const playerRed = 'R';
 const playerYellow = 'Y';
-const currentPlayer = playerRed;
+let currentPlayer = playerRed;
 const gameOver = false;
 let board;
 const rows = 6;
@@ -40,7 +40,9 @@ function setPiece() {
   let tile = this;
   if (currentPlayer == playerRed) {
     tile.classList.add("red-piece");
+    currentPlayer = playerYellow;
   } else {
     tile.classList.add("yellow-piece");
+    currentPlayer = playerRed;
   }
 }
