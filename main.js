@@ -55,4 +55,9 @@ function setPiece() {
   r -= 1; //updates row height for column
   currentColumns[c] = r;
 
+  checkWinner();
+}
+
+function checkWinner() {
+    
 }
