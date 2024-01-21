@@ -70,5 +70,13 @@ function checkWinner() {
             }
         }
     }
-
+}
+function setWinner(r, c) {
+    let winner = document.getElementById("winner");
+    if (board[r][c] == playerRed) {
+        winner.innerText = 'Red Wins!! :)';
+    } else {
+        winner.innerText = 'Yellow wins!! :D';
+    }
+    gameOver = true;
 }
