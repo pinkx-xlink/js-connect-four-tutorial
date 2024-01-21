@@ -1,20 +1,21 @@
-const playerRed = 'r';
-const playerYellow = 'y';
-const currentPlayer = false;
-const board;
+const playerRed = 'R';
+const playerYellow = 'Y';
+const currentPlayer = playerRed;
+const gameOver = false;
+let board;
 const rows = 6;
 const columns = 7;
 
 window.onload = function() {
-    getGame();
+    setGame();
 }
-function getGame() {
+function setGame() {
     board = [];
 
     for (let r = 0; r < rows; r++) {
         let row = [];
         for (let c = 0; c < columns; c++) {
-            row.push('');
+            row.push(' ');
 
             let tile = document.createElement('div');
             tile.id = r.toString + "-" + c.toString;
