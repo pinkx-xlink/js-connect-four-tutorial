@@ -36,7 +36,11 @@ body {
     height: 540px;
     width: 630px;
     background-image: url('./img/wood-texture.webp');
-    border: 10px solid rgb(54, 18, 7);
+    border-bottom: 10px ridge rgb(82, 60, 48);
+    border-right: 10px ridge rgb(82, 60, 48);
+    border-left: 10px groove rgb(82, 60, 48);
+    border-top: 10px groove rgb(82, 60, 48);
+    border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
