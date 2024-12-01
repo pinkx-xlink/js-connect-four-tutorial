@@ -1,6 +1,6 @@
 # js-connect-four-tutorial
 
-![Naruto themed connect four gameboard](./img/connect-four-naruto-theme-project-screennshot.png "Naruto Themed Connect Four")
+![Naruto themed connect four gameboard](./img/connect-four-naruto-theme-javascript-project.png "Naruto Themed Connect Four")
 
 ![Naruto themed connect four game](./img/connect-four-winning-screenshot.png "Naruto Themed Connect Four")
 
@@ -19,3 +19,5 @@ Sharingan src web link: https://vignette.wikia.nocookie.net/narutofanon/images/8
 Sage mode src web link: https://th.bing.com/th/id/R.65f98b3f5cfadb6df51bde0130fbb8f1?rik=BC7KyzVzd8%2fm%2bQ&pid=ImgRaw&r=0
 
 Wooden gameboard texture src web link: https://pics.craiyon.com/2023-06-26/d6bda378163840f48112b0131bfb12cd.webp
+
+![Naruto themed connect four gameboard](./img/connect-four-naruto-theme-project-screennshot.png "Naruto Themed Connect Four")
