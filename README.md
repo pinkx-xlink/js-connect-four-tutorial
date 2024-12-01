@@ -1,5 +1,8 @@
 # js-connect-four-tutorial
 
+![Naruto themed connect four gameboard](./img/connect-four-naruto-theme-project-screennshot.png "Naruto Themed Connect Four")
+
+
 1/21/24
 Warming up for my tic tac toe project by following the Connect Four JavaScript tutorial here > https://www.youtube.com/watch?v=4ARsthVnCTg
 
