@@ -23,9 +23,14 @@ body {
 }
 
 .red-piece {
-    background-color: red;
+    background-image: url(./img/sharingan.jpg);
+    background-size: 70px;
+    background-position: 0%;
 }
 
 .yellow-piece {
-    background-color: yellow;
+    background-image: url(./img/sage-mode-eye.jpg);
+    background-size: 70px;
+    background-position: 0%;
+    background-repeat: no-repeat;
 }
