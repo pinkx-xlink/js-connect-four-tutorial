@@ -13,3 +13,5 @@ Background src image web link: https://wallpapercave.com/wp/wp10715133.jpg
 Sharingan src web link: https://vignette.wikia.nocookie.net/narutofanon/images/8/89/Sassyruto's_Sharingan.png/revision/latest?cb=20150923023125
 
 Sage mode src web link: https://th.bing.com/th/id/R.65f98b3f5cfadb6df51bde0130fbb8f1?rik=BC7KyzVzd8%2fm%2bQ&pid=ImgRaw&r=0
+
+Wooden gameboard texture src web link: https://pics.craiyon.com/2023-06-26/d6bda378163840f48112b0131bfb12cd.webp
