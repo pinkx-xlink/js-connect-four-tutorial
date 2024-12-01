@@ -1,10 +1,23 @@
+*{ 
+    font-family: "Covered By Your Grace", cursive;
+}
 .covered-by-your-grace-regular {
     font-family: "Covered By Your Grace", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
+h1 {
+    background-image: linear-gradient(to bottom right, gray, white, gray);
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 10px outset;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-image: url(./img/brothers.webp);
     background-size: cover;
